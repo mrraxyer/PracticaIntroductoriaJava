@@ -9,16 +9,8 @@ public class Cliente {
         this.direccion = direccion;
     }
 
-    public int getId() {
-        return id;
-    }
-
     public String getNombre() {
         return nombre;
-    }
-
-    public String getDireccion() {
-        return direccion;
     }
 
     @Override

@@ -19,7 +19,6 @@ public class Producto {
         return precio;
     }
 
-    // Verifica que la cantidad sea positiva y que haya stock suficiente
     public boolean reducirStock(int cantidad) {
         if (cantidad <= 0) return false;
         if (cantidad > stock) return false;
