@@ -9,14 +9,6 @@ public class DetalleVenta {
         this.subtotal = producto.getPrecio() * cantidad;
     }
 
-    public Producto getProducto() {
-        return producto;
-    }
-
-    public int getCantidad() {
-        return cantidad;
-    }
-
     public double getSubtotal() {
         return subtotal;
     }

@@ -11,10 +11,6 @@ public class Producto {
         this.stock = stock;
     }
 
-    public int getId() {
-        return id;
-    }
-
     public String getNombre() {
         return nombre;
     }
@@ -23,21 +19,12 @@ public class Producto {
         return precio;
     }
 
-    public int getStock() {
-        return stock;
-    }
-
     // Verifica que la cantidad sea positiva y que haya stock suficiente
     public boolean reducirStock(int cantidad) {
         if (cantidad <= 0) return false;
         if (cantidad > stock) return false;
         stock -= cantidad;
         return true;
-    }
-
-    // Permite aumentar el stock
-    public void aumentarStock(int cantidad) {
-        if (cantidad > 0) stock += cantidad;
     }
 
     @Override

@@ -48,18 +48,6 @@ public class Venta {
         return suma;
     }
 
-    public int getId() {
-        return id;
-    }
-
-    public Cliente getCliente() {
-        return cliente;
-    }
-
-    public String getFecha() {
-        return fecha;
-    }
-
     public List<DetalleVenta> getDetalles() {
         return detalles;
     }
